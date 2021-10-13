@@ -413,7 +413,7 @@ func (f *LoaderPostgres) buildInsertQuery(ctx *loadContext, t tableName, rows ta
 		fields[i] = "\"" + field + "\""
 	}
 
-	query := "INSERT INTO %s (%s) VALUES %s RETURNING row_to_json(%[1]s)"
+	query := "INSERT INTO %s as row (%s) VALUES %s RETURNING row_to_json(row)"
 	return fmt.Sprintf(query, t.getFullName(), strings.Join(fields, ", "), strings.Join(dbValues, ", ")), nil
 }
 
