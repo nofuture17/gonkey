@@ -39,8 +39,8 @@ Import gonkey as a dependency to your project in this file.
 
 ```go
 import (
-	"github.com/lamoda/gonkey/runner"
-	"github.com/lamoda/gonkey/mocks"
+	"github.com/nofuture17/gonkey/runner"
+	"github.com/nofuture17/gonkey/mocks"
 )
 ```
 

@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lamoda/gonkey/checker"
-	"github.com/lamoda/gonkey/cmd_runner"
-	"github.com/lamoda/gonkey/fixtures"
-	"github.com/lamoda/gonkey/mocks"
-	"github.com/lamoda/gonkey/models"
-	"github.com/lamoda/gonkey/output"
-	"github.com/lamoda/gonkey/testloader"
-	"github.com/lamoda/gonkey/variables"
+	"github.com/nofuture17/gonkey/checker"
+	"github.com/nofuture17/gonkey/cmd_runner"
+	"github.com/nofuture17/gonkey/fixtures"
+	"github.com/nofuture17/gonkey/mocks"
+	"github.com/nofuture17/gonkey/models"
+	"github.com/nofuture17/gonkey/output"
+	"github.com/nofuture17/gonkey/testloader"
+	"github.com/nofuture17/gonkey/variables"
 )
 
 type Config struct {

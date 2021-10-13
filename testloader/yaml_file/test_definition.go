@@ -1,6 +1,6 @@
 package yaml_file
 
-import "github.com/lamoda/gonkey/models"
+import "github.com/nofuture17/gonkey/models"
 
 type TestDefinition struct {
 	Name               string                    `json:"name" yaml:"name"`

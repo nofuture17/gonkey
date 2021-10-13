@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/lamoda/gonkey/models"
+	"github.com/nofuture17/gonkey/models"
 )
 
 func newClient() (*http.Client, error) {

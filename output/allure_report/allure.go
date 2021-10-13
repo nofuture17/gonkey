@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/lamoda/gonkey/output/allure_report/beans"
+	"github.com/nofuture17/gonkey/output/allure_report/beans"
 )
 
 type Allure struct {
